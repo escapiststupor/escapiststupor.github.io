@@ -1087,11 +1087,11 @@ button.style3:active,
   overflow: hidden;
   width: 2em;
   height: 2em;
-  display: block;
+  display: none;
 }
 
 .poptrox-popup .closer:before {
-  content: '\f00d';
+  content: none;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: FontAwesome;
@@ -1110,6 +1110,7 @@ button.style3:active,
 }
 
 .poptrox-popup:hover .closer {
+  display: none;
   opacity: 0.5;
 }
 
