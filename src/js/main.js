@@ -78,14 +78,8 @@
 
 						});
 
-				// More button.
-					$banner.find('.more')
-						.addClass('scrolly');
 
 			}
-
-		// Scrolly.
-			$('.scrolly').scrolly();
 
 		// Poptrox.
 			$window.on('load', function() {

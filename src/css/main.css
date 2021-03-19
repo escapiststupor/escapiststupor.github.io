@@ -1209,30 +1209,6 @@ button.style3:active,
   border: none;
 }
 
-#banner .more {
-  background-image: url('images/arrow.svg');
-  background-position: center 1.35em;
-  background-repeat: no-repeat;
-  background-size: auto;
-  border: 1px solid #fff;
-  border-radius: 100%;
-  color: rgba(255, 255, 255, 0.75);
-  display: block;
-  height: 4em;
-  text-indent: 4em;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 4em;
-  z-index: 2;
-  margin: 0 auto 2em auto;
-}
-
-#banner .more:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid #fff;
-  color: #fff;
-}
-
 #banner video {
   -moz-transform: translateX(50%) translateY(50%);
   -webkit-transform: translateX(50%) translateY(50%);

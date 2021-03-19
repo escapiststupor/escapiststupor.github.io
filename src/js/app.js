@@ -1,11 +1,11 @@
 // CSS
+require('normalize.css/normalize.css');
 require('../css/main.css');
 
 // JavaScript
-window.$ = require('jquery');
-require('./jquery.min.js');
-require('./jquery.scrolly.min.js');
-require('./jquery.poptrox.min.js');
-require('./skel.min.js');
+window.jQuery = require('./jquery.min.js');
+// require('./jquery.poptrox.min.js');
+window.poptrox = require('./jquery.poptrox.min.js');
+window.skel = require('./skel.min.js');
 require('./util.js');
 require('./main.js');
