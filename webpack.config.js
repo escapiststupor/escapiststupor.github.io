@@ -20,29 +20,15 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin({ buildPath }),
-    // new CopyPlugin({
-    //   patterns: [
-    //     {
-    //       context: `${__dirname}/src/`,
-    //       from: '*.html',
-    //       to: `${__dirname}/docs`,
-    //     },
-    //     {
-    //       context: `${__dirname}/src/img`,
-    //       from: '*',
-    //       to: `${__dirname}/docs/img`,
-    //     },
-    //   ],
-    // }),
-    // new CopyPlugin({
-    //   patterns: [
-    //     {
-    //       context: `${__dirname}/`,
-    //       to: buildPath,
-    //       from: './src/*.html',
-    //     },
-    //   ],
-    // }),
+    new CopyPlugin({
+      patterns: [
+        {
+          context: `${__dirname}/src/img`,
+          from: '*',
+          to: `${buildPath}/img`,
+        },
+      ],
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].[contenthash].css',
