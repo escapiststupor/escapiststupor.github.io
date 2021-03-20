@@ -42,10 +42,10 @@ module.exports = {
   ],
   module: {
     rules: [
-      // {
-      //   test: /\.html$/i,
-      //   type: 'asset/resource',
-      // },
+      {
+        test: /\.html$/i,
+        type: 'asset/resource',
+      },
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
