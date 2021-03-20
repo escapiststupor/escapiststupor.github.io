@@ -1,40 +1,65 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
-const PurgecssPlugin = require('purgecss-webpack-plugin');
 const HtmlMinimizerPlugin = require('html-minimizer-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const buildPath = path.resolve(__dirname, 'docs');
 
 module.exports = {
   entry: './src/js/app.js',
-  mode: 'production',
+  devtool: 'source-map',
+  devServer: {
+    port: 8080,
+  },
   output: {
-    path: `${__dirname}/docs`,
-    filename: 'bundle.js',
+    filename: '[name].[fullhash:20].js',
+    path: buildPath,
   },
   plugins: [
-    new CopyPlugin({
-      patterns: [
-        {
-          context: `${__dirname}/src/`,
-          from: '*.html',
-          to: `${__dirname}/docs`,
-        },
-        {
-          context: `${__dirname}/src/img`,
-          from: '*',
-          to: `${__dirname}/docs/img`,
-        },
-      ],
+    new CleanWebpackPlugin({ buildPath }),
+    // new CopyPlugin({
+    //   patterns: [
+    //     {
+    //       context: `${__dirname}/src/`,
+    //       from: '*.html',
+    //       to: `${__dirname}/docs`,
+    //     },
+    //     {
+    //       context: `${__dirname}/src/img`,
+    //       from: '*',
+    //       to: `${__dirname}/docs/img`,
+    //     },
+    //   ],
+    // }),
+    // new CopyPlugin({
+    //   patterns: [
+    //     {
+    //       context: `${__dirname}/`,
+    //       to: buildPath,
+    //       from: './src/*.html',
+    //     },
+    //   ],
+    // }),
+    new MiniCssExtractPlugin({
+      filename: '[name].[contenthash].css',
+      chunkFilename: '[id].[contenthash].css',
     }),
-    new MiniCssExtractPlugin(),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      inject: true,
+      chunks: ['main'], // default to 'all'
+      filename: 'index.html',
+    }),
   ],
   module: {
     rules: [
-      {
-        test: /\.html$/i,
-        type: 'asset/resource',
-      },
+      // {
+      //   test: /\.html$/i,
+      //   type: 'asset/resource',
+      // },
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
@@ -48,11 +73,9 @@ module.exports = {
   optimization: {
     minimize: true,
     minimizer: [
-      new TerserPlugin({
-        extractComments: false,
-      }),
+      new TerserPlugin({ parallel: true }),
       new OptimizeCssAssetsPlugin(),
-      new HtmlMinimizerPlugin(),
+      new HtmlMinimizerPlugin({ parallel: true }),
     ],
   },
 };
