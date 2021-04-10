@@ -10,7 +10,6 @@ const buildPath = path.resolve(__dirname, 'docs');
 
 module.exports = {
   entry: './src/js/app.js',
-  devtool: 'source-map',
   devServer: {
     port: 8080,
   },
