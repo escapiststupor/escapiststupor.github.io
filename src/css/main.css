@@ -402,19 +402,19 @@ header h6 + p {
   text-align: center;
 }
 
-#footer .inner {
+.inner {
   width: 50%;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 980px) {
-  #footer .inner {
+  .inner {
     width: 75%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  #footer .inner {
+  .inner {
     width: 90%;
   }
 }
