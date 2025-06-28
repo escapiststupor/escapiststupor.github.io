@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="<%= lang === 'zh_tw' ? 'zh-TW' : 'en' %>">
+  <head>
+    <meta charset="utf-8" />
+    <title><%= data.title %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="<%= data.description %>" />
+  </head>
+  <body id="top">
+    <section id="banner" data-video="img/banner">
+      <div class="inner">
+        <header>
+          <h1><%= data.header.name %></h1>
+          <h2><%= data.header.subtitle %></h2>
+        </header>
+      </div>
+    </section>
+
+    <div class="inner">
+      <h3><%= data.about.title %></h3>
+      <%- data.about.content %>
+    </div>
+
+    <div id="main">
+      <div class="inner">
+        <div class="thumbnails">
+          <% data.videos.forEach(function(video, index) { %>
+          <div class="box">
+            <a href="<%= video.url %>" class="image fit">
+              <img src="<%= video.thumbnail %>" alt="" />
+            </a>
+            <div class="inner">
+              <h3><%= video.title %></h3>
+              <p><%= video.description %></p>
+              <a
+                href="<%= video.url %>"
+                class="button <%= index % 3 === 0 ? '' : index % 3 === 1 ? 'style2' : 'style3' %> fit"
+                data-poptrox="youtube,800x400"
+                ><%= data.watch %></a
+              >
+            </div>
+          </div>
+          <% }); %>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <p class="copyright">
+        <%= data.footer.contact %>
+        <a href="mailto:<%= data.footer.email %>"><%= data.footer.email %></a>
+      </p>
+    </footer>
+
+    <script>
+      // Initialize language toggle when DOM is ready
+      document.addEventListener("DOMContentLoaded", function () {
+        if (typeof languageUtils !== "undefined") {
+          languageUtils.initLanguageToggle();
+        }
+      });
+    </script>
+  </body>
+</html>

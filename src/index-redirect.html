@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canglah Micyang & Friends</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Canglah Micyang | Phyllis Yen | 嚴子晴 | collaborative pianist / social or corporate events / live music performances / home violin, viola, piano lesson for all ages & levels in Mandarin or English in Hsinchu"
+    />
+    <script>
+      // Language detection and redirect
+      function detectAndRedirect() {
+        const userLanguages = navigator.languages || [
+          navigator.language || navigator.userLanguage,
+        ];
+        let targetLanguage = "en"; // Default to English
+
+        // Check user's preferred languages
+        for (let lang of userLanguages) {
+          const langLower = lang.toLowerCase();
+          // Check for Traditional Chinese
+          if (
+            langLower.includes("zh-tw") ||
+            langLower.includes("zh-hant") ||
+            langLower === "zh-mo" ||
+            langLower === "zh-hk"
+          ) {
+            targetLanguage = "zh_tw";
+            break;
+          }
+          // Check for English (keep as default)
+          if (langLower.startsWith("en")) {
+            targetLanguage = "en";
+            break;
+          }
+        }
+
+        // Redirect to appropriate language version
+        if (targetLanguage === "zh_tw") {
+          window.location.href = "./zh_tw/";
+        } else {
+          window.location.href = "./en/";
+        }
+      }
+
+      // Run detection when page loads
+      detectAndRedirect();
+    </script>
+  </head>
+  <body>
+    <div
+      style="
+        text-align: center;
+        margin-top: 50px;
+        font-family: Arial, sans-serif;
+      "
+    >
+      <h1>Redirecting...</h1>
+      <p>Detecting your language preference...</p>
+      <p>
+        <a
+          href="./en/"
+          style="
+            margin: 10px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+          "
+          >English</a
+        >
+        <a
+          href="./zh_tw/"
+          style="
+            margin: 10px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+          "
+          >中文</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
