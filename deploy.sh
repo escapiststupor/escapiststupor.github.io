@@ -45,14 +45,15 @@ if [ $? -ne 0 ]; then
 fi
 
 # Step 5: Push to GitHub
-echo "🌐 Pushing to GitHub..."
-git push origin main
+CURRENT_BRANCH=$(git branch --show-current)
+echo "🌐 Pushing to GitHub (branch: $CURRENT_BRANCH)..."
+git push origin "$CURRENT_BRANCH"
 
 if [ $? -ne 0 ]; then
     echo "❌ Push failed! Please check your git configuration and network connection."
     echo "💡 You may need to:"
     echo "   - Check your GitHub authentication"
-    echo "   - Pull latest changes if there are conflicts: git pull origin main"
+    echo "   - Pull latest changes if there are conflicts: git pull origin $CURRENT_BRANCH"
     exit 1
 fi
 
