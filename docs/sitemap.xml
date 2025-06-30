@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- English version -->
+  <url>
+    <loc>https://canglah-micyang.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://canglah-micyang.com/zh_tw/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://canglah-micyang.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://canglah-micyang.com/en/" />
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Traditional Chinese version -->
+  <url>
+    <loc>https://canglah-micyang.com/zh_tw/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://canglah-micyang.com/zh_tw/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://canglah-micyang.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://canglah-micyang.com/en/" />
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset> 

@@ -53,6 +53,16 @@ module.exports = {
           from: "*",
           to: `${buildPath}/img`,
         },
+        {
+          context: `${__dirname}/src`,
+          from: "sitemap.xml",
+          to: `${buildPath}/sitemap.xml`,
+        },
+        {
+          context: `${__dirname}/src`,
+          from: "robots.txt",
+          to: `${buildPath}/robots.txt`,
+        },
       ],
     }),
     new MiniCssExtractPlugin({

@@ -2,15 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Canglah Micyang & Friends</title>
+    <title>Canglah Micyang & Friends - Music Performances & Lessons</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
       name="description"
       content="Canglah Micyang | Phyllis Yen | 嚴子晴 | collaborative pianist / social or corporate events / live music performances / home violin, viola, piano lesson for all ages & levels in Mandarin or English in Hsinchu"
     />
+
+    <!-- SEO Improvements -->
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="https://canglah-micyang.com/en/" />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://canglah-micyang.com/en/"
+    />
+    <link
+      rel="alternate"
+      hreflang="zh-TW"
+      href="https://canglah-micyang.com/zh_tw/"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://canglah-micyang.com/en/"
+    />
+
+    <!-- Preload language-specific pages -->
+    <link rel="prefetch" href="./en/" />
+    <link rel="prefetch" href="./zh_tw/" />
+
     <script>
-      // Language detection and redirect
-      function detectAndRedirect() {
+      // Optimized language detection and redirect
+      (function () {
         const userLanguages = navigator.languages || [
           navigator.language || navigator.userLanguage,
         ];
@@ -36,17 +60,17 @@
           }
         }
 
-        // Redirect to appropriate language version
+        // Immediate redirect - no delay
         if (targetLanguage === "zh_tw") {
-          window.location.href = "./zh_tw/";
+          window.location.replace("./zh_tw/");
         } else {
-          window.location.href = "./en/";
+          window.location.replace("./en/");
         }
-      }
-
-      // Run detection when page loads
-      detectAndRedirect();
+      })();
     </script>
+
+    <!-- Fallback meta refresh in case JavaScript is disabled -->
+    <meta http-equiv="refresh" content="0; url=./en/" />
   </head>
   <body>
     <div
@@ -56,8 +80,12 @@
         font-family: Arial, sans-serif;
       "
     >
-      <h1>Redirecting...</h1>
-      <p>Detecting your language preference...</p>
+      <h1>Canglah Micyang & Friends</h1>
+      <p>Redirecting to your preferred language...</p>
+      <p>
+        如果沒有自動跳轉，請選擇語言 | If not redirected automatically, please
+        choose your language:
+      </p>
       <p>
         <a
           href="./en/"
