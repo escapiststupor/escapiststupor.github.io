@@ -199,6 +199,7 @@ header h6 + p {
 .image.left img,
 .image.right img {
   width: 100%;
+  height: auto;
 }
 
 .image.left {
@@ -221,6 +222,7 @@ header h6 + p {
 
 .image.fit img {
   width: 100%;
+  height: auto;
 }
 
 .image.main {
@@ -231,6 +233,7 @@ header h6 + p {
 
 .image.main img {
   width: 100%;
+  height: auto;
 }
 
 /* Poptrox */
