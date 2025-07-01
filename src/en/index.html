@@ -9,6 +9,12 @@
       content="Canglah Micyang | Phyllis Yen | 嚴子晴 | collaborative pianist / social or corporate events / live music performances / home violin, viola, piano lesson for all ages & levels in Mandarin or English in Hsinchu"
     />
     <link rel="stylesheet" href="../css/main.css" />
+
+    <!-- Preload LCP image -->
+    <link rel="preload" as="image" href="../img/banner.jpg" />
+
+    <!-- Improved caching -->
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000" />
   </head>
   <body id="top">
     <section id="banner" data-video="img/banner">
@@ -189,9 +195,23 @@
       <div class="inner">
         <div class="thumbnails">
           <div class="box">
-            <a href="https://youtu.be/y6ONcwBKM-g" class="image fit"
-              ><img src="../img/pic04.png" alt=""
-            /></a>
+            <a href="https://youtu.be/y6ONcwBKM-g" class="image fit">
+              <picture>
+                <source
+                  srcset="../img/pic04-small.webp"
+                  media="(max-width: 768px)"
+                  type="image/webp"
+                />
+                <source srcset="../img/pic04.webp" type="image/webp" />
+                <img
+                  src="../img/pic04.png"
+                  alt="String quartet performance with Nancy Zhou, Boris Borgolotto, and Marc Girard Garcia"
+                  width="800"
+                  height="452"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
             <div class="inner">
               <h3>
                 String quartet with Nancy Zhou, Boris Borgolotto, and Marc
@@ -209,9 +229,23 @@
             </div>
           </div>
           <div class="box">
-            <a href="https://youtu.be/bbPk-HlR6Sc" class="image fit"
-              ><img src="../img/pic01.png" alt=""
-            /></a>
+            <a href="https://youtu.be/bbPk-HlR6Sc" class="image fit">
+              <picture>
+                <source
+                  srcset="../img/pic01-small.webp"
+                  media="(max-width: 768px)"
+                  type="image/webp"
+                />
+                <source srcset="../img/pic01.webp" type="image/webp" />
+                <img
+                  src="../img/pic01.png"
+                  alt="Recital with Ting-Wei Chen, principal flute of Oslo Philharmonic Orchestra"
+                  width="800"
+                  height="454"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
             <div class="inner">
               <h3>
                 Recital with Ting-Wei Chen, principal flute of Oslo Philharmonic
@@ -227,9 +261,23 @@
             </div>
           </div>
           <div class="box">
-            <a href="https://youtu.be/dgWUxUNX6Cg" class="image fit"
-              ><img src="../img/pic02.png" alt=""
-            /></a>
+            <a href="https://youtu.be/dgWUxUNX6Cg" class="image fit">
+              <picture>
+                <source
+                  srcset="../img/pic02-small.webp"
+                  media="(max-width: 768px)"
+                  type="image/webp"
+                />
+                <source srcset="../img/pic02.webp" type="image/webp" />
+                <img
+                  src="../img/pic02.png"
+                  alt="Recital with Yu-Ting Chen, violinist of The Philadelphia Orchestra"
+                  width="800"
+                  height="451"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
             <div class="inner">
               <h3>
                 Recital with Yu-Ting Chen, violinist of The Philadelphia
@@ -245,9 +293,23 @@
             </div>
           </div>
           <div class="box">
-            <a href="https://youtu.be/1zoiyp57N4E" class="image fit"
-              ><img src="../img/pic03.png" alt=""
-            /></a>
+            <a href="https://youtu.be/1zoiyp57N4E" class="image fit">
+              <picture>
+                <source
+                  srcset="../img/pic03-small.webp"
+                  media="(max-width: 768px)"
+                  type="image/webp"
+                />
+                <source srcset="../img/pic03.webp" type="image/webp" />
+                <img
+                  src="../img/pic03.png"
+                  alt="Recital with Serena Huang, concert violinist"
+                  width="800"
+                  height="451"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
             <div class="inner">
               <h3>Recital with Serena Huang, concert violinist</h3>
               <p>

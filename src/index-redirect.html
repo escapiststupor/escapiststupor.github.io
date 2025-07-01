@@ -28,9 +28,12 @@
       href="https://canglah-micyang.com/en/"
     />
 
-    <!-- Preload language-specific pages -->
+    <!-- Preload language-specific pages and critical resources -->
     <link rel="prefetch" href="./en/" />
     <link rel="prefetch" href="./zh_tw/" />
+    <link rel="preload" href="./css/main.css" as="style" />
+    <link rel="dns-prefetch" href="https://youtu.be" />
+    <link rel="dns-prefetch" href="https://www.youtube.com" />
 
     <script>
       // Optimized language detection and redirect

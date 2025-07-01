@@ -9,6 +9,12 @@
       content="Canglah Micyang | 嚴子晴 | Phyllis Yen | 協奏家 / 社交或企業活動 / 現場音樂表演 / 新竹地區提供中文或英文小提琴、中提琴、鋼琴家教課程，適合各年齡層及程度"
     />
     <link rel="stylesheet" href="../css/main.css" />
+
+    <!-- Preload LCP image -->
+    <link rel="preload" as="image" href="../img/banner.jpg" />
+
+    <!-- Improved caching -->
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000" />
   </head>
   <body id="top">
     <section id="banner" data-video="img/banner">
@@ -137,12 +143,28 @@
       <div class="inner">
         <div class="thumbnails">
           <div class="box">
-            <a href="https://youtu.be/y6ONcwBKM-g" class="image fit"
-              ><img src="../img/pic04.png" alt=""
-            /></a>
+            <a href="https://youtu.be/y6ONcwBKM-g" class="image fit">
+              <picture>
+                <source
+                  srcset="../img/pic04-small.webp"
+                  media="(max-width: 768px)"
+                  type="image/webp"
+                />
+                <source srcset="../img/pic04.webp" type="image/webp" />
+                <img
+                  src="../img/pic04.png"
+                  alt="與Nancy Zhou、Boris Borgolotto、Marc Girard Garcia的弦樂四重奏演出"
+                  width="800"
+                  height="452"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
             <div class="inner">
-              <h3>與周穎、Boris Borgolotto、Marc Girard Garcia的弦樂四重奏</h3>
-              <p>孟德爾頌：a小調第二號弦樂四重奏，作品13</p>
+              <h3>
+                與Nancy Zhou、Boris Borgolotto、Marc Girard Garcia的弦樂四重奏
+              </h3>
+              <p>孟德爾頌：a小調第2號弦樂四重奏，作品13</p>
               <a
                 href="https://youtu.be/y6ONcwBKM-g"
                 class="button style2 fit"
@@ -152,13 +174,25 @@
             </div>
           </div>
           <div class="box">
-            <a href="https://youtu.be/bbPk-HlR6Sc" class="image fit"
-              ><img src="../img/pic01.png" alt=""
-            /></a>
+            <a href="https://youtu.be/bbPk-HlR6Sc" class="image fit">
+              <picture>
+                <source
+                  srcset="../img/pic01-small.webp"
+                  media="(max-width: 768px)"
+                  type="image/webp"
+                />
+                <source srcset="../img/pic01.webp" type="image/webp" />
+                <img
+                  src="../img/pic01.png"
+                  alt="與奧斯陸愛樂樂團首席長笛陳庭緯的音樂會"
+                  width="800"
+                  height="454"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
             <div class="inner">
-              <h3>
-                與奧斯陸愛樂管弦樂團首席長笛、維也納音樂學院講師陳廷威的音樂會
-              </h3>
+              <h3>與奧斯陸愛樂樂團首席長笛陳庭緯的音樂會</h3>
               <p>André Jolivet: Chant de Linos</p>
               <a
                 href="https://youtu.be/bbPk-HlR6Sc"
@@ -169,11 +203,25 @@
             </div>
           </div>
           <div class="box">
-            <a href="https://youtu.be/dgWUxUNX6Cg" class="image fit"
-              ><img src="../img/pic02.png" alt=""
-            /></a>
+            <a href="https://youtu.be/dgWUxUNX6Cg" class="image fit">
+              <picture>
+                <source
+                  srcset="../img/pic02-small.webp"
+                  media="(max-width: 768px)"
+                  type="image/webp"
+                />
+                <source srcset="../img/pic02.webp" type="image/webp" />
+                <img
+                  src="../img/pic02.png"
+                  alt="與費城管弦樂團小提琴家陳宇庭的音樂會"
+                  width="800"
+                  height="451"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
             <div class="inner">
-              <h3>與費城管弦樂團小提琴家陳雨婷的音樂會</h3>
+              <h3>與費城管弦樂團小提琴家陳宇庭的音樂會</h3>
               <p>理查·史特勞斯：降E大調奏鳴曲，作品18</p>
               <a
                 href="https://youtu.be/dgWUxUNX6Cg"
@@ -184,9 +232,23 @@
             </div>
           </div>
           <div class="box">
-            <a href="https://youtu.be/1zoiyp57N4E" class="image fit"
-              ><img src="../img/pic03.png" alt=""
-            /></a>
+            <a href="https://youtu.be/1zoiyp57N4E" class="image fit">
+              <picture>
+                <source
+                  srcset="../img/pic03-small.webp"
+                  media="(max-width: 768px)"
+                  type="image/webp"
+                />
+                <source srcset="../img/pic03.webp" type="image/webp" />
+                <img
+                  src="../img/pic03.png"
+                  alt="與小提琴演奏家Serena Huang的音樂會"
+                  width="800"
+                  height="451"
+                  loading="lazy"
+                />
+              </picture>
+            </a>
             <div class="inner">
               <h3>與小提琴演奏家Serena Huang的音樂會</h3>
               <p>貝多芬：c小調小提琴奏鳴曲，作品30第2號</p>
