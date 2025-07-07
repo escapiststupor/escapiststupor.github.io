@@ -1,7 +1,7 @@
 User-agent: *
+Allow: /
 Allow: /en/
 Allow: /zh_tw/
-Disallow: /
 Disallow: /src/
 Disallow: /node_modules/
 
