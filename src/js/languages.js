@@ -1,8 +1,7 @@
 const languages = {
   en: {
     title: "Canglah Micyang & Friends",
-    description:
-      "Canglah Micyang | Phyllis Yen | 嚴子晴 | collaborative pianist / social or corporate events / live music performances / home violin, viola, piano lesson for all ages & levels in Mandarin or English in Hsinchu",
+    description: "Canglah Micyang | Phyllis Yen | 嚴子晴",
     header: {
       name: "Canglah Micyang",
       subtitle: "& Friends",
