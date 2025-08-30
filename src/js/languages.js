@@ -63,7 +63,7 @@ const languages = {
         <p>
           In the recording industry, Canglah has frequently collaborated with Taiwanese producer 
           <a target="_blank" href="https://www.sunmusicproduction.com/">Shao-Ting Sun</a>, who has achieved significant recognition, 
-          including the 35th Golden Melody Award for Best Recording and a Grammy nomination for Best Classical Compendium. 
+          including the 35th and 36th Golden Melody Award for Best Recording and a Grammy nomination for Best Classical Compendium. 
           In their collaboration, Canglah has contributed to various projects such as 
           "Finding The Path Of Eternity With You" 《陪你揣永遠》 by Since Chou（周自從）, 
           the album "Roots"《結》 by The Youths of the Sea Island（海島青年實驗室）, 
@@ -169,7 +169,7 @@ const languages = {
         </p>
 
         <p>
-          在錄音業界，Canglah 經常與台灣製作人<a target="_blank" href="https://www.sunmusicproduction.com/">孫韶庭</a>合作，孫韶庭獲得重要榮譽，包括第35屆金曲獎最佳錄音及葛萊美獎最佳古典合輯提名。在合作中，Canglah 參與了多項專案，如周自從的《陪你揣永遠》、海島青年實驗室的專輯《結》、Netflix台灣劇集《商魂》，並擔任以下專案的錄音音樂家及統籌：電玩遊戲Deemo 4原聲帶、遊戲《未曉星程》、赤燭遊戲《九日》原聲帶、犯罪動作片《器子》、紀錄片《台灣超人》，以及電影《夏日的檸檬草》和《搜查瑠公圳》。作為錄音統籌，她在引導音樂家進行藝術調整、促進團隊成員有效溝通、確保製作流程效率方面發揮了關鍵作用。她統籌製作的專輯獲得好評，DEEMO榮獲Google Play台灣編輯推薦「最佳遊戲音樂」獎，《九日》榮獲2024年獨立遊戲獎「最佳敘事」獎。
+          在錄音業界，Canglah 經常與台灣製作人<a target="_blank" href="https://www.sunmusicproduction.com/">孫韶庭</a>合作，孫韶庭獲得重要榮譽，包括第35屆及第36屆金曲獎最佳錄音及葛萊美獎最佳古典合輯提名。在合作中，Canglah 參與了多項專案，如周自從的《陪你揣永遠》、海島青年實驗室的專輯《結》、Netflix台灣劇集《商魂》，並擔任以下專案的錄音音樂家及統籌：電玩遊戲Deemo 4原聲帶、遊戲《未曉星程》、赤燭遊戲《九日》原聲帶、犯罪動作片《器子》、紀錄片《台灣超人》，以及電影《夏日的檸檬草》和《搜查瑠公圳》。作為錄音統籌，她在引導音樂家進行藝術調整、促進團隊成員有效溝通、確保製作流程效率方面發揮了關鍵作用。她統籌製作的專輯獲得好評，DEEMO榮獲Google Play台灣編輯推薦「最佳遊戲音樂」獎，《九日》榮獲2024年獨立遊戲獎「最佳敘事」獎。
         </p>
 
         <p>
