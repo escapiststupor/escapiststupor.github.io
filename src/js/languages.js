@@ -149,7 +149,7 @@ const languages = {
       title: "關於",
       content: `
         <p>
-          台灣阿美族中提琴家、小提琴家及協奏鋼琴家 Canglah Micyang（前名嚴子晴）來自台東法拉撒威部落，於9歲時在山葉年度慶典音樂會中於高雄市文化中心以鋼琴獨奏家身份首次登台協奏演出。自此，她接受嚴格的音樂學院訓練，並在大學預科期間於全國音樂比賽中獲得鋼琴及小提琴雙項首獎。她在台灣<a target="_blank" href="https://imu.nycu.edu.tw/alumni.php?year=2013">國立交通大學音樂研究所取得小提琴演奏碩士學位</a>，並獲得<a target="_blank" href="https://www.zyxelgroup.com/Press_Room&show_type=D&id=24">聲望卓著的合勤科技獎學金</a>。
+          台灣阿美族中提琴家、小提琴家及協奏鋼琴家 Canglah Micyang（漢名嚴子晴）來自台東法拉撒威部落，於9歲時在山葉年度慶典音樂會中於高雄市文化中心以鋼琴獨奏家身份首次登台協奏演出。自此，她接受嚴格的音樂學院訓練，並在大學預科期間於全國音樂比賽中獲得鋼琴及小提琴雙項首獎。她在台灣<a target="_blank" href="https://imu.nycu.edu.tw/alumni.php?year=2013">國立交通大學音樂研究所取得小提琴演奏碩士學位</a>，並獲得<a target="_blank" href="https://www.zyxelgroup.com/Press_Room&show_type=D&id=24">聲望卓著的合勤科技獎學金</a>。
         </p>
 
         <p>
