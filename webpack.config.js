@@ -45,7 +45,7 @@ module.exports = {
     path: buildPath,
   },
   plugins: [
-    new CleanWebpackPlugin({ buildPath }),
+    new CleanWebpackPlugin(),
     new CopyPlugin({
       patterns: [
         {
