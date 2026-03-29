@@ -1,1 +1,0 @@
-/*! jQuery v2.2.1 | (c) jQuery Foundation | jquery.org/license */

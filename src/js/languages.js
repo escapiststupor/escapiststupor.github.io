@@ -103,6 +103,7 @@ const languages = {
         description:
           "Felix Mendelssohn: The String Quartet No. 2 in a minor, Op. 13",
         url: "https://youtu.be/y6ONcwBKM-g",
+        youtubeId: "y6ONcwBKM-g",
         thumbnail: "img/pic04.png",
       },
       {
@@ -110,6 +111,7 @@ const languages = {
           "Recital with Ting-Wei Chen, principal flute of Oslo Philharmonic Orchestra. Lecturer of MDW Vienna",
         description: "André Jolivet: Chant de Linos",
         url: "https://youtu.be/bbPk-HlR6Sc",
+        youtubeId: "bbPk-HlR6Sc",
         thumbnail: "img/pic01.png",
       },
       {
@@ -117,14 +119,23 @@ const languages = {
           "Recital with Yu-Ting Chen, violinist of The Philadelphia Orchestra",
         description: "Richard Strauss: Sonata in E-flat major, Op. 18",
         url: "https://youtu.be/dgWUxUNX6Cg",
+        youtubeId: "dgWUxUNX6Cg",
         thumbnail: "img/pic02.png",
       },
       {
-        title: "Recital with Serena Huang, concert violinist",
+        title: "Recital with Sirena Huang, concert violinist",
         description:
           "Ludwig van Beethoven: Violin Sonata in C minor, Op. 30, No. 2",
         url: "https://youtu.be/1zoiyp57N4E",
+        youtubeId: "1zoiyp57N4E",
         thumbnail: "img/pic03.png",
+      },
+      {
+        title: "Live performance in Vienna with violinist Belle Ting (丁章媛)",
+        description: "Live performance in Vienna",
+        url: "https://www.youtube.com/watch?v=VFsORchKG5Y",
+        youtubeId: "VFsORchKG5Y",
+        thumbnail: null,
       },
     ],
     footer: {
@@ -183,28 +194,39 @@ const languages = {
     },
     videos: [
       {
-        title: "與Nancy Zhou、Boris Borgolotto、Marc Girard Garcia的弦樂四重奏",
+        title: "與周穎、Boris Borgolotto、Marc Girard Garcia的弦樂四重奏",
         description: "孟德爾頌：a小調第二號弦樂四重奏，作品13",
         url: "https://youtu.be/y6ONcwBKM-g",
+        youtubeId: "y6ONcwBKM-g",
         thumbnail: "img/pic04.png",
       },
       {
         title: "與奧斯陸愛樂管弦樂團首席長笛、維也納音樂學院講師陳廷維的獨奏會",
         description: "André Jolivet: Chant de Linos",
         url: "https://youtu.be/bbPk-HlR6Sc",
+        youtubeId: "bbPk-HlR6Sc",
         thumbnail: "img/pic01.png",
       },
       {
-        title: "與費城管弦樂團小提琴家陳郁婷的獨奏會",
+        title: "與費城管弦樂團小提琴家陳雨婷的獨奏會",
         description: "理查·史特勞斯：降E大調奏鳴曲，作品18",
         url: "https://youtu.be/dgWUxUNX6Cg",
+        youtubeId: "dgWUxUNX6Cg",
         thumbnail: "img/pic02.png",
       },
       {
-        title: "與音樂會小提琴家Serena Huang的獨奏會",
+        title: "與音樂會小提琴家黃凱珉的獨奏會",
         description: "貝多芬：c小調小提琴奏鳴曲，作品30第2號",
         url: "https://youtu.be/1zoiyp57N4E",
+        youtubeId: "1zoiyp57N4E",
         thumbnail: "img/pic03.png",
+      },
+      {
+        title: "與小提琴家丁章媛在維也納的現場演出",
+        description: "維也納現場演出",
+        url: "https://www.youtube.com/watch?v=VFsORchKG5Y",
+        youtubeId: "VFsORchKG5Y",
+        thumbnail: null,
       },
     ],
     footer: {
