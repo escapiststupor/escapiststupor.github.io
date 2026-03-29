@@ -131,17 +131,15 @@ const languages = {
         thumbnail: "img/pic03.png",
       },
       {
-        title: "Live performance in Vienna with violinist Belle Ting (丁章媛)",
-        description: "Live performance in Vienna",
+        title:
+          "Piazzolla: Ave Maria / Tanti Anni Prima with violinist Belle Ting (丁章媛)",
+        description: "Piazzolla: Ave Maria / Tanti Anni Prima",
         url: "https://www.youtube.com/watch?v=VFsORchKG5Y",
         youtubeId: "VFsORchKG5Y",
         thumbnail: null,
       },
     ],
-    footer: {
-      contact: "For enquiries, please email",
-      email: "msy.music.studio@gmail.com",
-    },
+    footer: {},
     watch: "Watch",
     languageToggle: {
       english: "English",
@@ -168,7 +166,7 @@ const languages = {
         </p>
 
         <p>
-          她與多位國際重要比賽得主合作室內樂演出，包括小提琴家<a target="_blank" href="https://en.wikipedia.org/wiki/Nancy_Zhou">Nancy Zhou</a>、<a target="_blank" href="https://www.belleting.com/">Belle Ting</a>、<a target="_blank" href="https://en.wikipedia.org/wiki/Sirena_Huang">Sirena Huang</a>、<a target="_blank" href="https://en.wikipedia.org/wiki/Richard_Lin">Richard Lin</a>、<a target="_blank" href="https://www.abigelkralik.com/">Abigél Králik</a>，中提琴家<a target="_blank" href="https://www.juilliard.edu/music/faculty/huang-hsin-yun">黃心芸</a>，大提琴家<a target="_blank" href="https://petarpejcic.com/">Petar Pejčić</a>，鋼琴家<a target="_blank" href="https://pianisthsin.com/">Giselle Hsin</a>，以及長笛家<a target="_blank" href="https://www.tingweichen.com/">陳廷維</a>。這些合作彰顯了她致力於與世界頂尖音樂家合作的專業精神。
+          她與多位國際重要比賽得主合作室內樂演出，包括小提琴家<a target="_blank" href="https://en.wikipedia.org/wiki/Nancy_Zhou">Nancy Zhou</a>、<a target="_blank" href="https://www.belleting.com/">Belle Ting</a>、<a target="_blank" href="https://en.wikipedia.org/wiki/Sirena_Huang">Sirena Huang</a>、<a target="_blank" href="https://en.wikipedia.org/wiki/Richard_Lin">Richard Lin</a>、<a target="_blank" href="https://www.abigelkralik.com/">Abigél Králik</a>，中提琴家<a target="_blank" href="https://www.juilliard.edu/music/faculty/huang-hsin-yun">黃心芸</a>，大提琴家<a target="_blank" href="https://petarpejcic.com/">Petar Pejčić</a>，鋼琴家<a target="_blank" href="https://pianisthsin.com/">Giselle Hsin</a>，以及長笛家<a target="_blank" href="https://www.tingweichen.com/">陳廷威</a>。這些合作彰顯了她致力於與世界頂尖音樂家合作的專業精神。
         </p>
 
         <p>
@@ -201,7 +199,7 @@ const languages = {
         thumbnail: "img/pic04.png",
       },
       {
-        title: "與奧斯陸愛樂管弦樂團首席長笛、維也納音樂學院講師陳廷維的獨奏會",
+        title: "與奧斯陸愛樂管弦樂團首席長笛、維也納音樂學院講師陳廷威的獨奏會",
         description: "André Jolivet: Chant de Linos",
         url: "https://youtu.be/bbPk-HlR6Sc",
         youtubeId: "bbPk-HlR6Sc",
@@ -215,7 +213,7 @@ const languages = {
         thumbnail: "img/pic02.png",
       },
       {
-        title: "與音樂會小提琴家黃凱珉的獨奏會",
+        title: "與小提琴獨奏家黃凱珉的獨奏會",
         description: "貝多芬：c小調小提琴奏鳴曲，作品30第2號",
         url: "https://youtu.be/1zoiyp57N4E",
         youtubeId: "1zoiyp57N4E",
@@ -223,16 +221,13 @@ const languages = {
       },
       {
         title: "與小提琴家丁章媛在維也納的現場演出",
-        description: "維也納現場演出",
+        description: "皮耶左拉：聖母頌",
         url: "https://www.youtube.com/watch?v=VFsORchKG5Y",
         youtubeId: "VFsORchKG5Y",
         thumbnail: null,
       },
     ],
-    footer: {
-      contact: "如有詢問，請來信",
-      email: "msy.music.studio@gmail.com",
-    },
+    footer: {},
     watch: "觀看",
     languageToggle: {
       english: "English",
